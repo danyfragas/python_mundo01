@@ -1,0 +1,4 @@
+# exercício 12: escreva um programa que converta uma temperatura digitanda em graus Celsius e converta para graus Fahrenheit
+
+temp = float(input('Temperatura em °C:'))
+print('A temperatura em Fahrenheit é: {}°F'. format(32+((9*temp)/5)))
